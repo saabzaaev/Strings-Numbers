@@ -13,10 +13,14 @@
 * ## $\color[RGB]{255,60,100}CharAt()$
   ```
   The charAt() method returns the character at a specified index (position) in a string.
+  The index of the first character is 0, the second 1, ...
+  The index of the last character is string length - 1 .
   ```
 * ## $\color[RGB]{255,60,100}at()$
   ```
   The at() method takes an integer value and returns a newString.
+  This method allows for positive and negative integers. Negative integers count
+  back from the last string character.
   ```
 * ## $\color[RGB]{255,60,100}Concat()$
   ```
@@ -43,10 +47,9 @@
   ```
 * ## $\color[RGB]{255,60,100}Substring(Start , End)$
   ```
-  Thesubstring()method extracts characters, between two indices (positions), from a string, and
-  returns the substring.
-  Thesubstring()method extracts characters from start to end (exclusive).
-  Thesubstring()method does not change the original string.
+  The substring() method extracts characters, between two indices (positions), from a string, and returns the substring.
+  The substring() method extracts characters from start to end (exclusive).
+  The substring() method does not change the original string.
   If start is greater than end, arguments are swapped: (4, 1) = (1, 4).
   Start or end values less than 0, are treated as 0.
   ```
@@ -95,5 +98,45 @@
   ```
 
 ## $\color[RGB]{100,100,150}{JavaScript\ Number\ methods}$
-* ## $\color[RGB]{255,60,100}CharAt()$
-* ## $\color[RGB]{255,60,100}CharAt()$
+* ## $\color[RGB]{255,60,100}Math.rounded()$
+  ```
+  The Math.rounded() function returns the number rounded to the nearest integer.
+  ```
+* ## $\color[RGB]{255,60,100}Math.cail()$
+  ```
+  The Math.cail() method rounds a decimal number up to the next largest integer and returns it.
+  ```
+* ## $\color[RGB]{255,60,100}Math.floor()$
+  ```
+  The Math.floor() function rounds down a number to the next smallest integer.
+
+  ```
+* ## $\color[RGB]{255,60,100}Math.max()$
+  ```
+  The max() method finds the maximum value among the specified values and returns it.
+  ```
+* ## $\color[RGB]{255,60,100}Math.min()$
+  ```
+  The method finds the minimum value among the specified values and returns it.
+  ```
+* ## $\color[RGB]{255,60,100}Math.pow()$
+  ```
+  The pow() method computes the power of a number by raising the second argument to the power of the first argument.
+  ```
+* ## $\color[RGB]{255,60,100}Math.sqrt()$
+  ```
+  The sqrt() method computes the square root of a specified number and returns it
+  ```
+* ## $\color[RGB]{255,60,100}Math.abc()$
+  ```
+  The abs()method finds the absolute value of the specified number (without any sign) and returns it.
+  ```
+* ## $\color[RGB]{255,60,100}Math.random()$
+  ```
+  The Math.random() function returns a floating-point, pseudo-random number between 0 (inclusive
+  and 1 (exclusive).
+  ```
+* ## $\color[RGB]{255,60,100}isNaN()$
+  ```
+  The isNaN() function checks if a value isNaN (Not-a-Number)or not.
+  ```
